@@ -25,8 +25,8 @@ function NewMeetupFrom(props) {
             address: enteredAddress,
             description: enteredDescription
         }
-
-        props.addMeetup(meetupData);
+        // sending the props to the mother function
+        props.onAddMeetup(meetupData);
 
     }
 
